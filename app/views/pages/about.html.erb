@@ -1,31 +1,5 @@
-<html>
-<head>
-<style>
-
-div {
-    width: 1000px;
-    padding: 25px;
-    border: 2px solid navy;
-    margin: 25px;
-}
-
-body {background-color:lightgrey;}
-h2   {color:blue;}
-h3   {color:blue;}
-p    {color:green;}
-</style>
-</head>
-<body>
-
-<div>
-<h2>Alpha Blog Website</h2>    
-| <%= link_to 'Home', root_path %> |  
-<%= link_to 'About', about_path %> |
-<%= link_to "Alpha Blog", articles_path %> |
+<div class="center jumbotron">
+  <h1><%= image_tag "alphablogred.png", :size => "250x50" %></h1>
+  <h4><strong></strong>Who We Are</strong></h4><br/>
+  <%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg btn-xlarge" %>    
 </div>
-
-<h3>Who We Are</h3>
-
-<img src="/assets/event.png" width="275" height="183">
-</body>
-</html>

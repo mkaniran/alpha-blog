@@ -1,2 +1,68 @@
+$navbar-default-bg: black;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: left;    
+}
+
+.jumbotron {
+  background-image: asset-url('rubyonrails.jpg');
+  background-size: cover;
+  height: 550px;
+  margin-top: -20px;
+}
+
+.jumbotron h1 {
+  color: black;
+  text-align: left;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-size: 3.4em;
+  font-weight: bold;
+}
+
+btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: a777;
+}
+
+footer a:hover {
+  color: #222;    
+}
+
+footer small {
+  float: left;    
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
