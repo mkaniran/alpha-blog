@@ -18,14 +18,15 @@ $navbar-default-bg: black;
 }
 
 .center {
-  text-align: left;    
+  text-align: center;    
 }
 
 .jumbotron {
   background-image: asset-url('rubyonrails.jpg');
   background-size: cover;
   height: 550px;
-  margin-top: -20px;
+  margin-top: -21px;
+  margin-top: 0px;
 }
 
 .jumbotron h1 {
@@ -54,6 +55,7 @@ btn-xlarge {
 .article-title {
   font-weight: bold;
   font-size: 1.5em;
+  a:hover {text-decoration: none};
 }
 
 .article-body {
