@@ -74,6 +74,19 @@ btn-xlarge {
   padding-left: 0;
 }
 
+.badge {
+  background-color: #eaeaea;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 1em;
+  a:hover {text-decoration: none};
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
