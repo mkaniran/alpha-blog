@@ -75,12 +75,21 @@ btn-xlarge {
 }
 
 .badge {
-  background-color: #eaeaea;
+  background-color: #f5f5f5;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
   font-size: 1em;
   a:hover {text-decoration: none};
+}
+
+.badgewhite {
+  border-top: 1px solid #eaeaea;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 1em;
+  a:hover {text-decoration: none};  
 }
 
 .input_checkbox input {
